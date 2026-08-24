@@ -1,6 +1,3 @@
-ممتاز. الآن نحن في المكان الصحيح، والمساحة فارغة.
-سنضع فيها محتوى ملف app/build.gradle، لكن لن نضع شيئًا عشوائيًا.
-انسخ هذا المحتوى كما هو بالكامل إلى المساحة الفارغة:
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
