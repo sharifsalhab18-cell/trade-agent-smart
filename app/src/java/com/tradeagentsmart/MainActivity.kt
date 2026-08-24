@@ -7,6 +7,6 @@ class MainActivity : Activity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(android.R.layout.activity_list_item)
+        setContentView(R.layout.activity_main)
     }
 }
