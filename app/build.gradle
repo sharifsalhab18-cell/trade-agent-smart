@@ -1,0 +1,19 @@
+ممتاز. الآن نحن في المكان الصحيح، والمساحة فارغة.
+سنضع فيها محتوى ملف app/build.gradle، لكن لن نضع شيئًا عشوائيًا.
+انسخ هذا المحتوى كما هو بالكامل إلى المساحة الفارغة:
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    namespace 'com.tradeagentsmart'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.tradeagentsmart'
+        minSdk 24
+        targetSdk 35
+        versionCode 1
+        versionName '1.0'
+    }
